@@ -1,0 +1,117 @@
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+/*html {
+  background-color: #000;
+  height: 100%;
+}*/
+body {
+  min-height: 110vh;
+  max-width: 100%;
+  background-color: papayawhip;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header-1{
+  padding: 15px;
+  background-color: #51517c;
+  text-align: center;
+}
+.header-1 h1 {
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.relacionado{
+  background-color: #b75454;
+  float: left;
+  text-align: center;
+  height: 75vh;
+  width: 20%;
+}
+.relacionado h2{
+  padding: 5%;
+  text-align: left;
+}
+.relacionado p {
+  text-align: left;
+  height: 18vh;
+  width: 80%;
+  margin: 15px;
+
+}
+.conteudo{
+  background-color: #54abb7;
+  float: left;
+  text-align: center;
+  height: 75vh;
+  width: 60%;
+}
+.header-2{
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 10px;
+}
+.informacao{
+  background-color: chocolate;
+  padding: 23px;
+}
+.rodape-1 {
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 21px;
+}
+.radape-1 p{
+  color: #000000;
+
+}
+.menu{
+  background-color: #b75454;
+  float: right;
+  text-align: center;
+  width: 20%;
+  height: 75vh;
+}
+.menu ul{
+  padding: 10%;
+  text-align: left;
+  width: 80%;
+  list-style: none;
+}
+.menu ul li{
+  padding: 0;
+  margin: 0;
+  border-bottom: #999999 thin inset;
+}
+.menu ul li a{
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #666666;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.menu ul li :hover{
+  background-color: #999999;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.rodape-final{
+  position: fixed;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 11vh;
+  background-color: #51517c;
+    color: white;
+    text-align: center;
+}
+.rodape-final p{
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
